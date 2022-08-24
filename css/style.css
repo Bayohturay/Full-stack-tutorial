@@ -223,11 +223,24 @@ tbody td {
 .innertable1{
     flex: 1;
     height: 600px;
-    background-color: aquamarine;
+    background-color: rgb(3, 32, 23);
 }
 .innertable2{
     padding: 100px;
     flex: 4;
     height: 600px;
     background-color: rgb(75, 111, 154);
+}
+
+.sidebar ul li{
+    list-style: none;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
